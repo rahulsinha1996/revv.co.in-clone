@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./CarouselBanner.module.css";
 import Searchbox from "./Searchbox";
-function CarouselBanner()) {
+function CarouselBanner() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
