@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/revv.co.in-clone/static/css/main.60df0779.css",
+    "main.js": "/revv.co.in-clone/static/js/main.61d6f3f6.js",
+    "static/js/787.9cb25ffc.chunk.js": "/revv.co.in-clone/static/js/787.9cb25ffc.chunk.js",
+    "index.html": "/revv.co.in-clone/index.html",
+    "main.60df0779.css.map": "/revv.co.in-clone/static/css/main.60df0779.css.map",
+    "main.61d6f3f6.js.map": "/revv.co.in-clone/static/js/main.61d6f3f6.js.map",
+    "787.9cb25ffc.chunk.js.map": "/revv.co.in-clone/static/js/787.9cb25ffc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60df0779.css",
+    "static/js/main.61d6f3f6.js"
+  ]
+}
