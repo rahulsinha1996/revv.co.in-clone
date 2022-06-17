@@ -39,30 +39,7 @@ You can install the libraries using the "**npm install**" command
 
 <br>
 
-## Snapshots 📷
 
-1. Rentals Page
-   ![rental](./Snapshots/Rentals.png)
-
-2. Subscriptions Page
-   ![rental](./Snapshots/Subscription.png)
-
-3. Login Page
-   ![rental](./Snapshots/Login.png)
-
-4. Cars List
-   ![rental](./Snapshots/Cars.png)
-
-5. Cars Profile
-   ![rental](./Snapshots/Carprofile.png)
-
-6. Payment Page
-   ![rental](./Snapshots/Payment.png)
-
-7. User Profile
-   ![rental](./Snapshots/Profile.png)
-
-<br>
 
 ## Features
 
