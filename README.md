@@ -1,109 +1,135 @@
-# revv_clone
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 
-###### It's an Self Drive Car Rental website clone which provides Safe, Sanitized Car Subscription You Can Count On.
+# Revv Cars (clone) 🚗
 
-##### Revv Cars is an Indian self-drive mobility start up funded by Hyundai and others. The company was founded by Anupam Agarwal and Karan Jain in July 2015 and started its operation in Delhi-NCR.
+**Revv Cars** is an Indian car-rental startup that offers multiple options to meet all your self-drive needs. The company was founded in 2015 and currently operates in 11 cities in India namely: Bangalore, Hyderabad, Chennai, Mumbai, Pune, Delhi NCR, Chandigarh, Jaipur, Vizag, Mysore, and Coimbatore.
 
+In this project we have tried to make a look alike clone of **Revv Cars**. With our efforts and the technology stack, that we have learned so far in the masai school, we were able to clone the front end with high precision and quality.
 
-## Tech Stacks Used
+# Technology Stack Used 💻
 
-<img src="https://agileengine.com/wp-content/uploads/2018/02/mern.jpg" width="100%">
+In this project we have used the following tech stack.
 
-## Source
+- React <i class="devicon-react-plain colored"></i>
+- Redux <i class="devicon-redux-plain colored"></i>
+- CSS <i class="devicon-css3-plain colored"></i>
+- Nodejs <i class="devicon-nodejs-plain"></i>
+- MongoDB <i class="devicon-mongodb-plain"></i>
 
-- React: [React](https://www.npmjs.com/package/react)
+<br>
 
-- Redux: [Redux](https://www.npmjs.com/package/redux) 
+## Libraries Used 🌟
 
-- React-Redux: [React-Redux](https://www.npmjs.com/package/react-redux)
+1. font-awesome
+2. react-redux
+3. react-hook-form
+4. uuid
+5. redux
+6. react-router-dom
+7. axios
+8. Material UI
+9. express
+10. mongoose
+11. cors
+12. antd
+13. bootstrap
+14. styled-components
 
-- Redux-thunks: [Redux-thunks](https://www.npmjs.com/package/thunks)
-
-- Images used: [Revv](https://www.revv.co.in/)
-
-- Material UI: [Material UI](https://material-ui.com/) 
-
-- Axios: [Axios](https://www.npmjs.com/package/axios)
-
-- Styled Components: [Styled Components](https://styled-components.com/)  
-
-- React Tabs: [React Tabs](https://www.npmjs.com/package/react-tabs)
-
-- Mongoose: [Mongoose](https://www.npmjs.com/package/mongoose)
-
-- Express: [Express](https://www.npmjs.com/package/express)
-
-- Bootstrap: [Bootstrap](https://www.npmjs.com/package/bootstrap)
+You can install the libraries using the "**npm install**" command
+<br>
 
 ## How to run the project 📑
 
+In this project we were able to achieve a near to perfect clone of the original website. As we do not want to overwhelm you, we haven't shared all the pages here.Please fork the repository and then use it on your own. If you want to collaborate with us on this project then please feel free to reach out to us.
+
 You can also take the glimpse of our Project,just follow the below steps:
 
-## For Front-end
+    1.run the command npm run server in terminal to start the server at port 1234.
 
-    1.Clone the repo using https://github.com/avinashkumarsinha007/revv_clone.git
-    
-    2.Open the front-end folder and run the command npm i and then npm run start in terminal to start the app.
+    2.run the command npm run start in terminal to start the app at port 3000.
 
-    3.Go to the browser you will land in the landing page just Register and login if you have signed up before or do the signup.
+    3.Go to the browser you will land in the landing page just login (email : harshgaur@gmail.com, password: 123456) if you have signed up before or do the signup.
+
+    4.Our website had 2 things Rental and Subscription feature.
+
+## For Rental
+
+    1.Just select the location,start date and end date,then click on Search
+
+    2.It will take to the Rental page where you can see many car available at your location you can also filter many things on the basis of brand,segment,transmission and many more.
+
+    3.For selecting the car first we had to select base fare and then click on book after which you will go to booking page.
+
+    4.On Booking page you can see all the information about car which you select and the price corresponding to  how many days you want to rent it.
+
+    5.You can click on pay which will take to payment page just pay the amount with the payment method of your choice.
+
+    6.After payment you will redirect to profile page where you can see all the cars you booked.
+
+## For Subscription
+
+    1.Just select the location,then click on Search
+
+    2.It will take to the Subscription page where you can see many car available at your location you can also filter many things on the basis of brand,segment,transmission and many more.
+
+    3.You can select the car of your own choice after which you will be landed to the description page of the car.
+
+    4.On Description page you can see all the information about car which you select and the price corresponding to  how many months you want to subscribe to it.
+
+    5.You can click on pay which will take to payment page just pay the amount with the payment method of your choice.
+
+    6.After payment you will redirect to profile page where you can see all the cars you booked.
 
 <br>
 
-## For Backend
+## Snapshots 📷
 
-    1.Open the backend folder in terminal and run the command npm i and then npm run server in terminal to start the backend.
+1. Rentals Page
+   ![rental](./Snapshots/Rentals.png)
 
-    2.On success it will show all the connected endpoints in the terminal.
+2. Subscriptions Page
+   ![rental](./Snapshots/Subscription.png)
+
+3. Login Page
+   ![rental](./Snapshots/Login.png)
+
+4. Cars List
+   ![rental](./Snapshots/Cars.png)
+
+5. Cars Profile
+   ![rental](./Snapshots/Carprofile.png)
+
+6. Payment Page
+   ![rental](./Snapshots/Payment.png)
+
+7. User Profile
+   ![rental](./Snapshots/Profile.png)
 
 <br>
 
-<!-- ## Loading Page
+## Features
 
-- The Landing Page of Pepperfry website displays various products, offers.
-- There is Pagination and Live Search enabled on the Landing Page.
-- In top section there is a Header which displays Dropdown menu of pages.
-- At the bottom section there is a footer, both Header & Footer are same across all the pages.
+1. User can book a car on the basis of dates
+2. User can subscribe a car on monthly basis
 
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/LandingPage.png">
+<br>
 
-## Login Page
+## Limitations
 
-- Existing user can Login and new user's can Register themselves.
-- to Register and Login there are Two option,
+1. Not responsive yet and might not be properly visible on small screen devices
 
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/Register.png">
+<br>
 
+## Team Members and Contributors 😇
 
-## Product Page
+👤 **Harsh gaur**
 
-- There are many Child pages linked to the Exercise page, but for this clone following pages are made.
-1. Sofas
-2. Chairs
-3. Tables
-4. Seating
-5. Cabinetry
-6. Dining & Bar
-7. Beds
+- Github: [iharshgaur](https://github.com/iharshgaur)
 
-- There are some Key Features which are added in website clone such as,
+👤 **Himanshu Kumar**
 
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/SingleCategory.png">
+- Github: [hithanos](hkghimanshu@gmail.com)
 
-## Add to Cart & Add to Wishlist
+👤 **Manish Raghavan**
 
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/Cart.png">
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/WishList.png">
-
-## Item Page
-
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/SingleProductPage.png">
-
-## Checkout Page
-
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/CheckOut.png">
-
-## Razorpay Checkout
-
-<img width="929" alt="Screenshot (640)" src="https://github.com/Vinesh3124/pepperfry_clone/blob/master/Frontend/src/Images/RazorPay.png">
-
-## Team Members and Contributors -->
+- Github: [Manish Raghavan](manish.mahendran9499@gmail.com)
